@@ -1,0 +1,156 @@
+body {
+    max-width: 99%;
+}
+
+.main {
+    background-image: url(../images/image\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    
+}
+
+.scroll-bg {
+    background-color: #0d203a;
+    opacity: 0.7;
+    /* Example color when scrolled */
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    z-index: 1000;
+    width: 100%;
+    /* padding: 10px 20px; */
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 20px;
+    color: white;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.logo h1 {
+    color: white;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.logo p {
+    color: rgb(246, 242, 242);
+    line-height: 1px;
+    margin-left: 5px;
+    font-family: sans-serif;
+}
+
+.collapse ul .nav-item .nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.collapse ul .nav-item .nav-link:hover {
+    color: gray;
+    transition: 0.3s;
+}
+
+@media screen and (min-width:1200px) {
+    .collapse ul .nav-item .nav-link {
+        color: white;
+        text-decoration: none;
+        padding: 10px 30px 0px 0px;
+
+    }
+
+    .navbar-nav {
+        margin-left: 25%;
+    }
+}
+
+.main .text-caption {
+    padding: 9%;
+}
+
+.main .text-caption h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.main .text-caption h1 span {
+    color: rgb(255, 102, 0);
+}
+
+.main .text-caption p {
+    font-size: 26px;
+}
+
+.counter {
+    margin: 5%;
+}
+
+.counter .col-lg-2 {
+    text-align: center;
+    margin: 20px;
+    padding: 0px 10px 0px 0px;
+}
+
+.counter {
+    padding-left: 30px;
+    margin-top: 7%;
+    padding-bottom: 20px;
+}
+
+.counter h2 {
+    color: rgba(14, 150, 181, 0.874);
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.counter p {
+    font-size: 22px;
+}
+
+.companies .top h1,
+h2 {
+    color: #0a3a79;
+    font-weight: 400;
+}
+
+.companies .top p {
+    color: gray;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-top: 12px;
+}
+.companies .row .col-lg-3{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 1px solid gray;
+    margin-top: 15px;
+  
+
+}
+.companies .row .col-lg-3:hover{
+    background-color: #0c3b78;
+    transition: 0.5s;
+    color: white;
+}
+.studies .top h2{
+font-size: 35px;
+}
+.studies .top p{
+    font-size: 20px;
+}
+ 
